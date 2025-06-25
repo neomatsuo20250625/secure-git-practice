@@ -2,7 +2,7 @@ name: Hello # workflow
 on: push # event
 jobs: # jobs
   hello: # jobname
-  runs-on: ubuntu-latest # runner
-  steps: # step
+   runs-on: ubuntu-latest # runner
+   steps: # step
      - run: echo "Hello, world" # ??????
      - uses: actions/checkout@v4 # ?????    
